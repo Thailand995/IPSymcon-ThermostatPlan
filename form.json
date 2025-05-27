@@ -1,0 +1,16 @@
+{
+  "elements": [
+    {
+      "type": "TextBox",
+      "name": "Plan",
+      "caption": "Wochenplan (JSON)"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Button",
+      "caption": "Plan speichern",
+      "onClick": "SetPlan($Plan);"
+    }
+  ]
+}
