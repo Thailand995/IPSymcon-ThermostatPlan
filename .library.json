@@ -1,0 +1,13 @@
+{
+  "name": "Thermostat Wochenplan",
+  "version": "1.0",
+  "author": "Thailand995",
+  "url": "https://github.com/Thailand995/IPSymcon-ThermostatPlan",
+  "modules": [
+    {
+      "name": "ThermostatPlan",
+      "version": "1.0",
+      "path": "module.json"
+    }
+  ]
+}
