@@ -1,14 +1,17 @@
 {
   "author": "Thailand995",
-  "url": "https://github.com/Thailand995/IPSymcon-ThermostatPlan",
+  "url": "https://github.com/thailand995/ipsymcon-thermostatplan",
   "version": "1.0",
+  "compatibility": {
+    "version": ">=6.0"
+  },
   "modules": [
     {
-      "id": "{B67F29FA-3C3F-489D-8D3A-THERMOPLAN001}",
+      "id": "{12345678-1234-1234-1234-1234567890AB}",
       "name": "ThermostatPlan",
       "type": 3,
-      "url": "ThermostatPlan",
-      "version": "1.0"
+      "vendor": "Thailand995",
+      "url": "https://github.com/thailand995/ipsymcon-thermostatplan/ThermostatPlan"
     }
   ]
 }
