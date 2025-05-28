@@ -5,7 +5,7 @@
   "compatibility": {
     "version": ">=6.0"
   },
-  "modules": [
+  "modules": {
     {
       "id": "{C6E0F3E8-EB20-6F71-D10A-542A63E4F71C}",
       "name": "ThermostatPlan",
