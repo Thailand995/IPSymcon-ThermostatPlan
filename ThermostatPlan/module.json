@@ -1,0 +1,17 @@
+{
+  "id": "{B67F29FA-3C3F-489D-8D3A-THERMOPLAN001}",
+  "name": "ThermostatPlan",
+  "type": 3,
+  "author": "Thailand995",
+  "version": "1.0",
+  "build": 1,
+  "date": "2024-05-28",
+  "url": "https://github.com/Thailand995/IPSymcon-ThermostatPlan",
+  "compatibility": {
+    "version": ">=6.3"
+  },
+  "files": [
+    "module.php",
+    "form.json"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "elements":
+  [
+    {
+      "type": "ValidationTextBox",
+      "name": "Name",
+      "caption": "Name"
+    },
+    {
+      "type": "NumberSpinner",
+      "name": "TemperatureDay",
+      "caption": "Tagtemperatur"
+    },
+    {
+      "type": "NumberSpinner",
+      "name": "TemperatureNight",
+      "caption": "Nachttemperatur"
+    },
+    {
+      "type": "SelectVariable",
+      "name": "PlanID",
+      "caption": "Wochenplan",
+      "validVariableTypes": [2]
+    }
+  ]
+}
