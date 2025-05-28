@@ -1,20 +1,11 @@
 {
-  "id": "{FC5DABE1-0A3E-491F-A8D2-7140FF6FCAFE}",
-  "author": "Beispiel Autor",
-  "name": "Wochenplan Thermostat",
-  "url": "file:///",
+  "id": "{B67F29FA-3C3F-489D-8D3A-THERMOPLAN001}",
+  "name": "Thermostat Wochenplan",
+  "type": 3,
+  "vendor": "Thailand995",
   "version": "1.0",
+  "aliases": [],
   "compatibility": {
-    "version": "6.0"
-  },
-  "components": [
-    {
-      "id": "{AA11AA11-AA11-AA11-AA11-AA11AA11AA11}",
-      "name": "Thermostat-Zeitplan",
-      "classname": "ThermostatPlan",
-      "caption": "Thermostat-Zeitplan",
-      "description": "Wochenzeitplan für mehrere Thermostate",
-      "form": "form.json"
-    }
-  ]
+    "version": ">=6.0"
+  }
 }

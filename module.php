@@ -1,16 +1,26 @@
 <?php
-class ThermostatPlan extends IPSModule {
-    public function Create() {
+
+class ThermostatPlan extends IPSModule
+{
+    public function Create()
+    {
         parent::Create();
-        $this->RegisterPropertyString("Plan", "{}");
+        $this->RegisterPropertyString('Plan', '');
     }
 
-    public function ApplyChanges() {
+    public function ApplyChanges()
+    {
         parent::ApplyChanges();
     }
 
-    public function SetPlan(string $json) {
-        IPS_LogMessage("ThermostatPlan", "Neuer Plan: " . $json);
+    public function SetTemperaturePlan(string $json)
+    {
+        IPS_LogMessage("ThermostatPlan", "Neuer Plan empfangen: " . $json);
+        $this->SetBuffer('Plan', $json);
+    }
+
+    public function GetTemperaturePlan()
+    {
+        return $this->GetBuffer('Plan');
     }
 }
-?>

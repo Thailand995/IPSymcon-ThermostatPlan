@@ -1,16 +1,17 @@
 {
   "elements": [
     {
-      "type": "TextBox",
+      "type": "Label",
+      "caption": "Hier können Sie den Wochenplan für das Thermostat eingeben:"
+    },
+    {
+      "type": "TextArea",
       "name": "Plan",
-      "caption": "Wochenplan (JSON)"
+      "caption": "Temperaturplan (JSON)",
+      "width": "600px",
+      "height": "200px"
     }
   ],
-  "actions": [
-    {
-      "type": "Button",
-      "caption": "Plan speichern",
-      "onClick": "SetPlan($Plan);"
-    }
-  ]
+  "actions": [],
+  "status": []
 }
