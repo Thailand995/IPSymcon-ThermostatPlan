@@ -7,11 +7,11 @@
   },
   "modules": [
     {
-      "id": "{12345678-1234-1234-1234-1234567890AB}",
+      "id": "{C6E0F3E8-EB20-6F71-D10A-542A63E4F71C}",
       "name": "ThermostatPlan",
       "type": 3,
       "vendor": "Thailand995",
-      "url": "https://github.com/thailand995/ipsymcon-thermostatplan/ThermostatPlan"
+      "url": "ThermostatPlan"
     }
   ]
 }
